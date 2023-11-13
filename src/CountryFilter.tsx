@@ -40,6 +40,6 @@ export const CountryFilter = (props: CountryFilterProps) => {
 }
 
 CountryFilter.defaultProps = {
-  autoFocus: false,
+  autoFocus: true,
   placeholder: 'Enter country name',
 }
